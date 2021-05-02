@@ -1,0 +1,123 @@
+/* Webpage Body Styling All Pages*/
+body {
+    background: #8fc1e3;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  /* Nav Bar Styling All Pages */
+.navbar.navbar-expand-lg{
+    margin-right:25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.navbar-brand{
+    background-color:#687864;
+    padding:10px;
+}
+
+.navbar-brand a:hover{
+    color:#f7f9fb;
+}
+
+.nav-item a:hover{
+    background: #687868;
+    color:#f7f9fb;
+}
+
+.dropdown-item {
+    color:#31708E;
+}
+.dropdown-menu a:hover{
+   background: #687864;
+   color:#f7f9fb;
+}
+
+.navbar-toggler{
+    background:#687864;
+    border-color:#f7f9fb
+}
+
+.navbar-toggler-icon {
+    stroke:#f7f9fb stroke-width='2' stroke-linecap='round' stroke-miterlimit='10';
+}
+
+/* Home Page Styling */
+
+a{
+    color:#f7f9fb;
+}
+
+.col-md-6{
+    background: #f7f9fb;
+}
+
+.col-md-4{
+    background: #f7f9fb;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+h1{
+    background: #f7f9fb;
+    color:#31708E;
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    background: #f7f9fb;
+    color:#31708E;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+p{
+    background: #f7f9fb;
+    color:black;
+    padding: 10px;
+
+}
+
+/* Comparison and Data Pages */
+.col-md-10{
+    background:#f7f9fb;
+}
+thead {
+    background-color:#687864;
+    color: #f7f9fb;
+}
+
+tbody{
+    background-color:#f7f9fb;
+}
+
+/* Comparison page only */
+#comparison{
+    margin-bottom: 60px;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: pink;
+    background: pink; /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+.container:hover .overlay {
+    opacity: 1;
+  }
